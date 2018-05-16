@@ -1,0 +1,24 @@
+# editorconfig.org
+root = true
+
+[*]
+charset = utf-8
+indent_size = 2
+indent_style = space
+end_of_line = lf
+insert_final_newline = true
+translate_tabs_to_spaces = false
+trim_trailing_whitespace = true
+
+[*.md]
+indent_size = 4
+trim_trailing_whitespace = false
+
+[package.json]
+indent_size = 2
+indent_style = space
+
+[{*.yml,.eslintrc}]
+indent_size = 4
+indent_style = space
+translate_tabs_to_spaces = true
